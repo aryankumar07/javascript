@@ -93,7 +93,7 @@ function que11( ){
 }
 function que12( ){
     var day = window.prompt("Enter the day of the week in lower case : ");
-        if(day = "saturday" || day == "sunday") document.write("It's Weekend !\n");
+        if(day = "s" || day == "S") document.write("It's Weekend !\n");
         else document.write("Alas !, It's a working day \n");
 }
 function que13(){
@@ -129,7 +129,7 @@ function que17( ){
 function que19( ){
     let str = prompt("Enter the text: ");
       if (Number.isFinite(Number(str))) document.write("Entered text is a number.");
-      else documet.write("Entered text is not a number.");
+      else document.write("Entered text is not a number.");
 }
 function que20( ){
     var x = parseInt(prompt("Enter the Number", "<number here>"), 10);
