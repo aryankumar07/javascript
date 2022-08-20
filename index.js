@@ -141,6 +141,10 @@ function que18(){
     document.getElementById("colorChange").onmouseover = function () {
       document.getElementById("colorChange").style.color = "red";
     }
-
+function que15(){
+       document.querySelector("h1").innerHTML = "Ab de Villiers";
+    document.querySelector("h1").addEventListener('mouseover', function image() {
+      document.getElementById('img1').style.visibility = 'visible';
+    });
 
 
