@@ -123,7 +123,24 @@ function que20( ){
     var x = parseInt(prompt("Enter the Number", "<number here>"), 10);
         (x==0)?document.write("Number is zero\n"):((x>0)?document.write("Number is Positive"):document.write("Number is Negative"));
 }
-
+ function reverseNum() {
+      var num = prompt("Enter the number:");
+      var a, array = [];
+      while (num !== 0) {
+        a = num % 10;
+        num = Math.floor(num / 10);
+        array.push(a);
+      }
+      alert(array);
+    }
+    reverseNum();
+}
+function que18(){
+ document.querySelector("h1").innerHTML = "Hover mouse to change color";
+    // document.querySelector("div").className += "hello";
+    document.getElementById("colorChange").onmouseover = function () {
+      document.getElementById("colorChange").style.color = "red";
+    }
 
 
 
